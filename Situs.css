@@ -1,0 +1,63 @@
+
+
+html {
+  font-family: 'Fascinate', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 2;
+  padding: 2;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  background: red;
+  height: 100vh;
+  background-image: url("images.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.valak > p {
+  font-size: 1.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.nonviksi > p {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+
+.nonviksi > a {
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: #00ff00;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+}
+
+.jancok > a {
+  text-decoration: none;
+  color: #00ff00;
+  font-size: 15px;
+  margin: 5px 10px;
+  padding: 10px;
+  font-weight: 10;
+  text-transform: center;
+}
+
+.test {
+  color: #fff;
+}
