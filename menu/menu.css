@@ -1,0 +1,54 @@
+html {
+  font-family: 'Fascinate', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.valak {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  background-image: url("valak.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.game > a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  border: 3px solid #222;
+  border-radius: 7px;
+  background-color: #eaeaea;
+  margin: 5px 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.jancok {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nani {
+  text-align: center;
+  color: #00ff00
+}
